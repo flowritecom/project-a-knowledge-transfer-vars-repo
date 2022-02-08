@@ -1,0 +1,314 @@
+{
+  "developmentLocal": {
+    "client": {
+      "appDomain": {
+        "description": "The domain of the client app, e.g. 'localhost:3000'",
+        "fetchingRule": "local",
+        "key": "APP_DOMAIN",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "localhost"
+      },
+      "appEnv": {
+        "description": "The environment of the client app, e.g. 'development'",
+        "fetchingRule": "local",
+        "key": "APP_ENV",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "development"
+      },
+      "appHost": {
+        "description": "The host of the client app, e.g. 'http://localhost'",
+        "fetchingRule": "local",
+        "key": "APP_HOST",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "http://localhost"
+      },
+      "backendHost": {
+        "description": "The host of the backend, e.g. 'http://localhost:3003'",
+        "fetchingRule": "local",
+        "key": "BACKEND_HOST",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "http://localhost:3003"
+      },
+      "frontendBranch": {
+        "description": "The branch of the frontend, e.g. 'main'",
+        "fetchingRule": "local",
+        "key": "FRONTEND_BRANCH",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "development"
+      },
+      "generateSourceMap": {
+        "description": "Whether to generate source maps or not",
+        "fetchingRule": "local",
+        "key": "GENERATE_SOURCE_MAP",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "true"
+      },
+      "nodeEnv": {
+        "description": "The node environment of the client app, e.g. 'development'",
+        "fetchingRule": "local",
+        "key": "NODE_ENV",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "development"
+      },
+      "zapierHookDomain": {
+        "description": "The domain of the Zapier hook, e.g. 'https://hooks.zapier.com/hooks/catch/xxxx/yyyy'",
+        "fetchingRule": "local",
+        "key": "ZAPIER_HOOK_DOMAIN",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "https://hooks.zapier.com/hooks/catch/xxxx/yyyy"
+      }
+    },
+    "inMemory": {
+      "redisUrl": {
+        "description": "Redis URL",
+        "fetchingRule": "local",
+        "key": "REDIS_URL",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "redis://localredis"
+      }
+    }
+  },
+  "developmentRemote": {
+    "client": {
+      "appDomain": {
+        "description": "The domain of the client app, e.g. 'localhost:3000'",
+        "fetchingRule": "local",
+        "key": "APP_DOMAIN",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "localhost"
+      },
+      "appEnv": {
+        "description": "The environment of the client app, e.g. 'development'",
+        "fetchingRule": "local",
+        "key": "APP_ENV",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "development"
+      },
+      "appHost": {
+        "description": "The host of the client app, e.g. 'http://localhost'",
+        "fetchingRule": "local",
+        "key": "APP_HOST",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "http://localhost"
+      },
+      "backendHost": {
+        "description": "The host of the backend, e.g. 'http://localhost:3003'",
+        "fetchingRule": "local",
+        "key": "BACKEND_HOST",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "http://localhost:3003"
+      },
+      "frontendBranch": {
+        "description": "The branch of the frontend, e.g. 'main'",
+        "fetchingRule": "local",
+        "key": "FRONTEND_BRANCH",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "development"
+      },
+      "generateSourceMap": {
+        "description": "Whether to generate source maps or not",
+        "fetchingRule": "local",
+        "key": "GENERATE_SOURCE_MAP",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "true"
+      },
+      "nodeEnv": {
+        "description": "The node environment of the client app, e.g. 'development'",
+        "fetchingRule": "local",
+        "key": "NODE_ENV",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "development"
+      },
+      "zapierHookDomain": {
+        "description": "The domain of the Zapier hook, e.g. 'https://hooks.zapier.com/hooks/catch/xxxx/yyyy'",
+        "fetchingRule": "local",
+        "key": "ZAPIER_HOOK_DOMAIN",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "https://hooks.zapier.com/hooks/catch/xxxxx/yyyyy"
+      }
+    },
+    "inMemory": {
+      "redisUrl": {
+        "description": "Redis URL",
+        "fetchingRule": "local",
+        "key": "REDIS_URL",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "redis://localhost:6379"
+      }
+    }
+  },
+  "production": {
+    "client": {
+      "appDomain": {
+        "description": "The domain of the client app, e.g. 'localhost:3000'",
+        "fetchingRule": "local",
+        "key": "APP_DOMAIN",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "yourproduction-domain.com"
+      },
+      "appEnv": {
+        "description": "The environment of the client app, e.g. 'development'",
+        "fetchingRule": "local",
+        "key": "APP_ENV",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "production"
+      },
+      "appHost": {
+        "description": "The host of the client app, e.g. 'http://localhost'",
+        "fetchingRule": "local",
+        "key": "APP_HOST",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "https:/your-production-host.com"
+      },
+      "backendHost": {
+        "description": "The host of the backend, e.g. 'http://localhost:3003'",
+        "fetchingRule": "local",
+        "key": "BACKEND_HOST",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "https://your-production-backend-host.com"
+      },
+      "frontendBranch": {
+        "description": "The branch of the frontend, e.g. 'main'",
+        "fetchingRule": "local",
+        "key": "FRONTEND_BRANCH",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "production"
+      },
+      "generateSourceMap": {
+        "description": "Whether to generate source maps or not",
+        "fetchingRule": "local",
+        "key": "GENERATE_SOURCE_MAP",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "false"
+      },
+      "nodeEnv": {
+        "description": "The node environment of the client app, e.g. 'development'",
+        "fetchingRule": "local",
+        "key": "NODE_ENV",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "production"
+      },
+      "zapierHookDomain": {
+        "description": "The domain of the Zapier hook, e.g. 'https://hooks.zapier.com/hooks/catch/xxxx/yyyy'",
+        "fetchingRule": "local",
+        "key": "ZAPIER_HOOK_DOMAIN",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "https://hooks.zapier.com/hooks/catch/production/zapier/hooks"
+      }
+    },
+    "inMemory": {
+      "redisUrl": {
+        "description": "Redis URL",
+        "fetchingRule": "local",
+        "key": "REDIS_URL",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "redis://localhost:6379"
+      }
+    }
+  },
+  "staging": {
+    "client": {
+      "appDomain": {
+        "description": "The domain of the client app, e.g. 'localhost:3000'",
+        "fetchingRule": "local",
+        "key": "APP_DOMAIN",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "yourstaging-domain.com"
+      },
+      "appEnv": {
+        "description": "The environment of the client app, e.g. 'development'",
+        "fetchingRule": "local",
+        "key": "APP_ENV",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "staging"
+      },
+      "appHost": {
+        "description": "The host of the client app, e.g. 'http://localhost'",
+        "fetchingRule": "local",
+        "key": "APP_HOST",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "https://yourstaging-host.com"
+      },
+      "backendHost": {
+        "description": "The host of the backend, e.g. 'http://localhost:3003'",
+        "fetchingRule": "local",
+        "key": "BACKEND_HOST",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "https://yourstaging-backehd-host.com"
+      },
+      "frontendBranch": {
+        "description": "The branch of the frontend, e.g. 'main'",
+        "fetchingRule": "local",
+        "key": "FRONTEND_BRANCH",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "aws-staging"
+      },
+      "generateSourceMap": {
+        "description": "Whether to generate source maps or not",
+        "fetchingRule": "local",
+        "key": "GENERATE_SOURCE_MAP",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "false"
+      },
+      "nodeEnv": {
+        "description": "The node environment of the client app, e.g. 'development'",
+        "fetchingRule": "local",
+        "key": "NODE_ENV",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "staging"
+      },
+      "zapierHookDomain": {
+        "description": "The domain of the Zapier hook, e.g. 'https://hooks.zapier.com/hooks/catch/xxxx/yyyy'",
+        "fetchingRule": "local",
+        "key": "ZAPIER_HOOK_DOMAIN",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "https://hooks.zapier.com/hooks/catch/xxxx/yyyyy"
+      }
+    },
+    "inMemory": {
+      "redisUrl": {
+        "description": "Redis URL",
+        "fetchingRule": "local",
+        "key": "REDIS_URL",
+        "secretARN": "local",
+        "secretId": "local",
+        "value": "redis://localhost:6379"
+      }
+    }
+  }
+}

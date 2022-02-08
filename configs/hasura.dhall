@@ -17,7 +17,6 @@ let developmentLocal
     = { adminSecret =
         { description = "Hasura admin secret"
         , key = "HASURA_GRAPHQL_ADMIN_SECRET"
-        -- , value = env:HASURA_GRAPHQL_ADMIN_SECRET as Text
         , value = "TBD"
         , secretId = "development-local/hasura/admin-secret"
         , secretARN = "arn:aws:secretsmanager:eu-central-1:XXXX:secret:development-local/hasura/admin-secret-XXXX"
@@ -38,7 +37,6 @@ let developmentRemote
     = { adminSecret =
         { description = "Hasura admin secret"
         , key = "HASURA_GRAPHQL_ADMIN_SECRET"
-        -- , value = env:HASURA_GRAPHQL_ADMIN_SECRET as Text
         , value = "TBD"
         , secretId = "development-remote/hasura/admin-secret"
         , secretARN = "arn:aws:secretsmanager:eu-central-1:XXXX:secret:development-remote/hasura/admin-secret-XXX"
@@ -59,7 +57,6 @@ let staging
     = { adminSecret =
         { description = "Hasura admin secret"
         , key = "HASURA_GRAPHQL_ADMIN_SECRET"
-        -- , value = env:HASURA_GRAPHQL_ADMIN_SECRET as Text
         , value = "TBD"
         , secretId = "staging/hasura/admin-secret"
         , secretARN = "arn:aws:secretsmanager:eu-central-1:XXXX:secret:staging/hasura/admin-secret-XXXX"

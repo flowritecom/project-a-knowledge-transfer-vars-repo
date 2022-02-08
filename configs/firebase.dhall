@@ -33,16 +33,16 @@ let developmentLocal
         , secretARN = "local"
         , fetchingRule = "local"
         }
-      , apiKey =
-        { description = "Firebase API key"
-        , key = "FB_API_KEY"
-        -- , value = env:FB_API_KEY as Text
-        , value = "TBD"
-        , secretId = "development-local/firebase/api-key"
-        , secretARN =
-            "arn:aws:secretsmanager:eu-central-1:XXXX:secret:development-local/firebase/api-key-XXX"
-        , fetchingRule = "aws"
-        }
+      , 
+     -- apiKey =
+     --   { description = "Firebase API key"
+     --   , key = "FB_API_KEY"
+     --   , value = "TBD"
+     --   , secretId = "development-local/firebase/api-key"
+     --   , secretARN =
+     --       "arn:aws:secretsmanager:eu-central-1:XXXX:secret:development-local/firebase/api-key-XXX"
+     --   , fetchingRule = "aws"
+     --   }
       , authDomain =
         { description = "Firebase main environment"
         , key = "FB_AUTH_DOMAIN"
@@ -112,16 +112,16 @@ let developmentRemote
         , secretARN = "local"
         , fetchingRule = "local"
         }
-      , apiKey =
-        { description = "Firebase API key"
-        , key = "FB_API_KEY"
-        -- , value = env:FB_API_KEY as Text
-        , value = "TBD"
-        , secretId = "development-remote/firebase/api-key"
-        , secretARN =
-            "arn:aws:secretsmanager:eu-central-1:XXXXX:secret:development-remote/firebase/api-key-XXXX"
-        , fetchingRule = "aws"
-        }
+     -- , apiKey =
+     --   { description = "Firebase API key"
+     --   , key = "FB_API_KEY"
+     --   , value = env:FB_API_KEY as Text
+     --   , value = "TBD"
+     --   , secretId = "development-remote/firebase/api-key"
+     --   , secretARN =
+     --       "arn:aws:secretsmanager:eu-central-1:XXXXX:secret:development-remote/firebase/api-key-XXXX"
+     --   , fetchingRule = "aws"
+     --   }
       , authDomain =
         { description = "Firebase authentication domain"
         , key = "FB_AUTH_DOMAIN"
@@ -191,16 +191,16 @@ let staging
         , secretARN = "local"
         , fetchingRule = "local"
         }
-      , apiKey =
-        { description = "Firebase API key"
-        , key = "FB_API_KEY"
-        -- , value = env:FB_API_KEY as Text
-        , value = "TBD"
-        , secretId = "staging/firebase/api-key"
-        , secretARN =
-            "arn:aws:secretsmanager:eu-central-1:XXXX:secret:staging/firebase/api-key-XXXX"
-        , fetchingRule = "aws"
-        }
+     -- , apiKey =
+     --   { description = "Firebase API key"
+     --   , key = "FB_API_KEY"
+     --   -- , value = env:FB_API_KEY as Text
+     --   , value = "TBD"
+     --   , secretId = "staging/firebase/api-key"
+     --   , secretARN =
+     --       "arn:aws:secretsmanager:eu-central-1:XXXX:secret:staging/firebase/api-key-XXXX"
+     --   , fetchingRule = "aws"
+     --   }
       , authDomain =
         { description = "Firebase authentication domain"
         , key = "FB_AUTH_DOMAIN"
@@ -270,16 +270,16 @@ let production
         , secretARN = "local"
         , fetchingRule = "local"
         }
-      , apiKey =
-        { description = "Firebase API key"
-        , key = "FB_API_KEY"
-        , value = "TBD"
-        , secretId = "production/firebase/api-key"
-        , secretARN =
-            "arn:aws:secretsmanager:eu-central-1:XXXX:secret:production/firebase/api-key-XXXX"
-        , fetchingRule = "aws"
-        }
-      , authDomain =
+     -- , apiKey =
+     --   { description = "Firebase API key"
+     --   , key = "FB_API_KEY"
+     --   , value = "TBD"
+     --   , secretId = "production/firebase/api-key"
+     --   , secretARN =
+     --       "arn:aws:secretsmanager:eu-central-1:XXXX:secret:production/firebase/api-key-XXXX"
+     --   , fetchingRule = "aws"
+     --   }
+     -- , authDomain =
         { description = "Firebase authentication domain"
         , key = "FB_AUTH_DOMAIN"
         , value = "firebase-auth-domain-for-production.firebaseapp.com"

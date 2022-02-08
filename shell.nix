@@ -40,6 +40,5 @@ mkShell {
       virtualenv $venvDir
     fi
     source ./$venvDir/bin/activate
-    ${pkgs.direnv}/bin/direnv allow
   '';
 }

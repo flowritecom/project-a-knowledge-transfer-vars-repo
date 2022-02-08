@@ -14,7 +14,7 @@ let HasuraConfig
     : Type
     = { accessToken : Values }
 
-let general
+ let general
     : HasuraConfig
     = { accessToken =
         { description = "Personal Github Access Token"
